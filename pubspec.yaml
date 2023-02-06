@@ -1,0 +1,43 @@
+name: instagram_app
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: 
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/insta_logo.png
+
+
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
+
+    - family: Aveny
+      fonts:
+        - asset: assets/fonts/AvenyTRegular.otf
+          style: normal
+        - asset: assets/fonts/AvenyTMedium.otf
+          style: italic
